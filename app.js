@@ -1,7 +1,7 @@
 // Import .env
 require('dotenv').config()
 
-var cryptoCOM = require('./lib/trading-bot/exchanges-connection/cryptoComApi')
+var cryptoCOM = require('./trading-bot/exchanges-connection/cryptoComApi')
 
 // Crypto.com
 const {
@@ -12,10 +12,10 @@ const {
 var {
     roundNumber,
     valueFromTo
-} = require('./lib/helpers/math')
+} = require('./helpers/math')
 
-var strategies = require('./lib/trading-bot/strategies/strategies')
-const tradingBot = require('./lib/trading-bot/tradingBot')
+var strategies = require('./trading-bot/strategies/strategies')
+const tradingBot = require('./trading-bot/tradingBot')
 
 var all_tickers
 let start
